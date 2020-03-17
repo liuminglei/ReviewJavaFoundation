@@ -15,7 +15,7 @@
 JDK版本：1.8
 
 * [重温Java基础（一）：数据类型](https://blog.csdn.net/liuminglei1987/article/details/104797502)
-
+* [重温Java基础（二）：变量](https://blog.csdn.net/liuminglei1987/article/details/104925686)
 
 
 
