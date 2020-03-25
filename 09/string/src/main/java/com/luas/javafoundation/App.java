@@ -1,6 +1,7 @@
 package com.luas.javafoundation;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 /**
  * 字符串
@@ -49,6 +50,9 @@ public class App
 
         // 码点流构造方法
         codePointsConstruct();
+
+        // 码点与代码单元
+        condUnitsAndPoints();
     }
 
     private static void connect() {
@@ -79,11 +83,23 @@ public class App
 
     private static void codePointsConstruct() {
         String message = "Hello World!";
-        int[] codePoints = message.codePoints().toArray();
+
+        IntStream intStream = message.codePoints();
+
+        int[] codePoints = intStream.toArray();
 
         String message_new = new String(codePoints, 0, codePoints.length);
 
         System.out.println("message_new is " + message_new);
+    }
+
+    private static void condUnitsAndPoints() {
+        String sentence = "\u03C0 \uD835\uDD6B";    // 该字符串的第二个（从一开始计）字符是空格
+        System.out.println(sentence);
+        int lengthCodeUnits = sentence.length();
+        int codePoints = sentence.codePointCount(0, lengthCodeUnits);
+        System.out.println(lengthCodeUnits);        // 4个code units
+        System.out.println(codePoints);        // 3个code points
     }
 
 }
