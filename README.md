@@ -16,6 +16,11 @@ JDK版本：1.8
 
 * [重温Java基础（一）：数据类型](https://blog.csdn.net/liuminglei1987/article/details/104797502)
 * [重温Java基础（二）：变量](https://blog.csdn.net/liuminglei1987/article/details/104925686)
+* [重温Java基础（三）：常量](https://blog.csdn.net/liuminglei1987/article/details/105411717)
+* [重温Java基础（四）：算术运算符及类型转换](https://blog.csdn.net/liuminglei1987/article/details/105411838)
+* [重温Java基础（五）：自增自减运算符](https://blog.csdn.net/liuminglei1987/article/details/105412013)
+* [重温Java基础（六）：关系、布尔运算符](https://blog.csdn.net/liuminglei1987/article/details/106142390)
+* [重温Java基础（七）：位运算符](https://blog.csdn.net/liuminglei1987/article/details/106142342)
 
 
 
